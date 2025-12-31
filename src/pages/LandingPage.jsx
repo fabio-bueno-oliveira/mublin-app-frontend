@@ -64,7 +64,7 @@ function Landing () {
               px={isMobile ? 26 : 0}
               ta='center'
             >
-              Feito pra quem vive de música. <nobr>Conecte-se</nobr> com projetos que estão contratando!
+              Feito pra quem vive de música. <nobr>Conecte-se</nobr> com projetos que estão contratando
             </Text>
             <Flex
               gap={14}
@@ -107,16 +107,16 @@ function Landing () {
         <Grid>
           <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
             <Card h='100%' bg='transparent' withBorder>
-              <IconMusicSearch size={32} stroke={1} color='#00f5d4' />
+              <IconMusicSearch size={26} stroke={1} color='#00f5d4' />
               <Title ff='monospace' order={3} fw={300} my={10}>
-                Encontre gigs próximas de você
+                Mais oportunidades para trabalhar com música
               </Title>
               <Text size='sm' c='dimmed'>Acesse oportunidades de shows na sua região em tempo real. Seja para tocar num bar, festival ou evento privado — as chances estão ao seu alcance.</Text>
             </Card>
           </Grid.Col>
           <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
             <Card h='100%' bg='transparent' withBorder>
-              <IconCalendarPlus size={32} stroke={1} color='#00f5d4' />
+              <IconCalendarPlus size={26} stroke={1} color='#00f5d4' />
               <Title ff='monospace' order={3} fw={300} my={10}>
                 Acompanhe o trabalho de artistas
               </Title>
@@ -125,7 +125,7 @@ function Landing () {
           </Grid.Col>
           <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
             <Card h='100%' bg='transparent' withBorder>
-              <IconUserCheck size={32} stroke={1} color='#00f5d4' />
+              <IconUserCheck size={26} stroke={1} color='#00f5d4' />
               <Title ff='monospace' order={3} fw={300} my={10}>
                 Perfil musical completo
               </Title>

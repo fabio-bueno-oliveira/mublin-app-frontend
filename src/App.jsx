@@ -5,9 +5,9 @@ import '@mantine/core/styles.css';
 
 const theme = createTheme({
   defaultRadius: 'md',
-  fontFamily: 'Geist, Helvetica, Arial, sans-serif',
+  fontFamily: 'Google Sans Flex, Helvetica, Arial, sans-serif',
   fontFamilyMonospace: 'monospace',
-  headings: { fontFamily: 'Geist, Helvetica, Arial, sans-serif' },
+  headings: { fontFamily: 'Google Sans Flex, Helvetica, Arial, sans-serif' },
   colors: {
     primary: virtualColor({
       name: 'primary',
@@ -70,7 +70,7 @@ const theme = createTheme({
       },
       styles: (theme, props) => ({
         root: {
-          borderColor: props['data-active'] 
+          borderColor: props['data-active'] === 'true'
             ? '#00f5d4' 
             : '#25292d', 
           transition: 'border-color 200ms ease',
